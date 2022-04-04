@@ -9,9 +9,8 @@ $params = array_merge(
 return [
     'id' => 'app-api',
     'basePath' => dirname(__DIR__),
-    'controllerNamespace' => 'api\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'controllerNamespace' => 'api\controllers',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-api',
@@ -22,7 +21,7 @@ return [
             'identityCookie' => ['name' => '_identity-api', 'httpOnly' => true],
         ],
         'session' => [
-            // this is the name of the session cookie used for login on the backend
+            // this is the name of the session cookie used for login on the api
             'name' => 'advanced-api',
         ],
         'log' => [

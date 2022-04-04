@@ -32,25 +32,25 @@ return [
     'Development' => [
         'path' => 'dev',
         'setWritable' => [
+            'console/runtime',
             'api/runtime',
             'api/web/assets',
-            'console/runtime',
         ],
         'setExecutable' => [
             'yii',
             'yii_test',
         ],
         'setCookieValidationKey' => [
-            'api/config/main-local.php',
             'common/config/codeception-local.php',
+            'api/config/main-local.php',
         ],
     ],
     'Production' => [
         'path' => 'prod',
         'setWritable' => [
+            'console/runtime',
             'api/runtime',
             'api/web/assets',
-            'console/runtime',
         ],
         'setExecutable' => [
             'yii',

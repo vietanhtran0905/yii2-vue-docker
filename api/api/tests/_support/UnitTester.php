@@ -1,6 +1,6 @@
 <?php
 
-namespace api\tests;
+namespace frontend\tests;
 
 /**
  * Inherited Methods
