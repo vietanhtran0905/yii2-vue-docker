@@ -23,6 +23,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+		return "This is API Yii2";
     }
 
 }
