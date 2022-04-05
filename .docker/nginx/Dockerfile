@@ -23,3 +23,7 @@ RUN php -v
 RUN apt install nodejs npm -y
 
 RUN npm i -g pm2
+
+RUN npm i -g yarn
+
+
