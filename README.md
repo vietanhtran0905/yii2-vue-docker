@@ -1,14 +1,14 @@
 # About The Project
 If you want to create a project with Yii2 (API), Frontend (Vuejs) and Docker. Project it's for you !!
-#Getting Started
+## Getting Started
 This is example of how you may give instructions on setting up your project.
 
-#Prerequisites
+## Prerequisites
 - Docker
 - Docker-compose
 - Git
 - Npm or Yarn
-#Installation
+## Installation
 1. Clone the project
 ````
 git clone https://github.com/vietanhtran0905/yii2-vue-docker.git
@@ -30,7 +30,7 @@ php init
 ````
 docker-compose up -d
 ````
-#Config
+## Config
 Config mariadb in api/config/main-local.php after run "php init" above.
 ````
 mysql:host=yii2-mariadb;dbname=*database_name*
@@ -41,7 +41,7 @@ Go to .docker folder and run
 docker-compose exec yii2 bash
 cd /var/www/html/api/
 ````
-#Usage
+## Usage
 The application will now be accessible at http://localhost
 
 You can develop in dev mode of vue-cli ( Frontend )
